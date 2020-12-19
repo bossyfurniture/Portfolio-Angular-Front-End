@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* Sidebar */
+#sidebar-wrapper{
+    z-index: 1;
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    overflow-y: hidden;
+    background: rgb(3, 36, 68);
+    padding: 0;
+}
+
+#mypic{
+    border-radius: 50%;
+    width: 190px;
+    height: 200px;
+    padding: 20px;
+}
+#name{
+    padding:20px;
+}
+
+.sidebar-nav{
+    padding: 0;
+    list-style: none;
+    font-family: "Manjari";
+    color: rgb(255, 255, 255);
+}
+
+.sidebar-nav li{
+    text-indent: 20px;
+    line-height: 40px;
+
+}
+
+.sidebar-nav li a{
+    display: block;
+    text-decoration: none;
+    font-family: "Manjari";
+    color: rgb(255, 255, 255);
+}
+
+.sidebar-nav li a:hover{
+    background-color: #16A085;
+}
+
+/* Main */
+#main-content-wrapper{
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+    padding-left: 265px;
+    font-family: "Manjari";
+}
+

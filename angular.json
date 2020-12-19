@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "abbasblog"
+  "defaultProject": "abbasblog",
+  "cli": {
+    "analytics": "74d3c145-e8eb-4063-887b-0877a4af7b77"
+  }
 }
